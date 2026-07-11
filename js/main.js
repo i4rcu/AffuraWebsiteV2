@@ -64,6 +64,23 @@
   hero.addEventListener("mouseenter", function () { clearInterval(timer); });
   hero.addEventListener("mouseleave", restart);
 
+  /* touch swipe (mirrored in RTL) */
+  var touchX = null;
+  hero.addEventListener("touchstart", function (e) {
+    touchX = e.touches[0].clientX;
+    clearInterval(timer);
+  }, { passive: true });
+  hero.addEventListener("touchend", function (e) {
+    if (touchX === null) { restart(); return; }
+    var dx = e.changedTouches[0].clientX - touchX;
+    var rtl = document.documentElement.dir === "rtl";
+    if (Math.abs(dx) > 45) {
+      if ((dx < 0) !== rtl) next(); else go(current - 1);
+    }
+    touchX = null;
+    restart();
+  }, { passive: true });
+
   go(0);
   restart();
 })();
