@@ -433,6 +433,13 @@ input:focus, select:focus, textarea:focus { border-color: var(--purple); outline
   .finish-grid { grid-template-columns: repeat(2, 1fr); }
   .slide .h1, .slide h1 { font-size: clamp(1.9rem, 7vw, 2.4rem); }
 }
+@media (max-width: 640px) {
+  .nav-cta { display: none; }
+  .brand-tag { display: none; }
+  .brand-name { font-size: 17px; }
+  .site-header .wrap { gap: 10px; padding-inline: 14px; }
+  .lang-switch button { padding: 4px 8px; font-size: 11px; }
+}
 @media (max-width: 540px) {
   .grid.cols-5, .grid.cols-4, .markets-grid, .finish-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
