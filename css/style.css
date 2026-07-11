@@ -414,6 +414,15 @@ input:focus, select:focus, textarea:focus { border-color: var(--purple); outline
 }
 @media (max-width: 820px) {
   .section { padding-block: 64px; }
+  /* phones crop wide photos hard — aim the crop at the subject */
+  .slide-media img { object-position: 30% center; } /* keep the Comexi press in frame */
+  .slide-scrim, [dir="rtl"] .slide-scrim {
+    background: linear-gradient(180deg, rgba(16,12,24,.30) 0%, rgba(16,12,24,.62) 45%, rgba(16,12,24,.9) 100%);
+  }
+  .slide-copy .eyebrow, .slide h1, .slide .h1, .slide p { text-shadow: 0 1px 12px rgba(16,12,24,.45); }
+  .slide.light .eyebrow, .slide.light .h1, .slide.light p { text-shadow: none; }
+  .eco-band img { object-position: 72% center; } /* keep the butterfly in frame */
+  .eco-band .wrap { padding-block: 72px; }
   .grid.cols-3 { grid-template-columns: 1fr; }
   .split, .slide-split, .form-grid { grid-template-columns: 1fr; }
   .slide-split { gap: 26px; }
