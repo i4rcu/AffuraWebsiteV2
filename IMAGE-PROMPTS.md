@@ -39,6 +39,20 @@ I'll swap out the placeholders.
 ## 8. `prod-dryfoods.png` — Legumes, Spices & Dry Foods detail page (currently placeholder)
 > Group of printed dry-food packs: a 1 kg rice bag with clear product window, a chickpea stand-up pouch and a small ground spice sachet with warm red-gold design, all branded "AFFURA PLAST" (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
 
+## Hero finish tiles v2 — 4 new photos for the homepage slide 2 grid (replace the old green set)
+
+**`finish2-coldseal.png`** — Cold Seal
+> Premium chocolate bar in an elegant flow-wrap pack, warm brown and gold design with AFFURA PLAST logo (black ring with purple swirl), one wrapped bar and one with the wrap partly open showing chocolate, realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+**`finish2-solventless.png`** — Solventless
+> Modern kraft-and-white eco stand-up pouch with minimal leaf icon and "AFFURA PLAST" logo (black ring with purple swirl), natural sustainable look, clean fresh design, realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+**`finish2-solvent.png`** — Solvent (high barrier)
+> High-gloss metallized printed packaging film roll with vivid multicolor fruit graphics reflecting light, sharp glossy finish demonstrating print brilliance, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+**`finish2-matte.png`** — Matte Lacquer
+> Luxury deep-purple matte soft-touch stand-up pouch with subtle embossed pattern and gold accents, AFFURA PLAST logo (black ring with purple swirl), velvet-like premium matte surface clearly visible, realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
 ## Optional (nice to have, for product detail sections later)
 - `prod-chips.png` — glossy metallized chips bag, bold printed design, AFFURA PLAST logo, same studio style.
 - `prod-meat-vacuum.png` — vacuum bag with fresh red meat cut, food-safe clear film, same studio style.
