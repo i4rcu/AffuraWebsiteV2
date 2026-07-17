@@ -50,3 +50,79 @@ I'll swap out the placeholders.
 - Certificate scans for the Certificates page (quality management / food safety / environmental).
 - Real stats to confirm: years, number of solutions, industries (site currently shows 9+ / 100+ / 5+ / EU·MENA).
 - Optional: real factory exterior photo instead of prompt #2.
+
+---
+
+## Catalog item pages — one image per product (save as the filename shown)
+
+1. **`item-nuts-driedfruits.png`** *(şu an yer tutucu var — öncelikli)*
+> Printed film roll for nuts and dried fruits with warm gold-green design showing pistachios and apricots, plus a finished pillow bag of mixed nuts, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+2. **`item-icecream.png`** *(şu an geçici görsel kullanılıyor)*
+> Metallized ice cream bar flow-wrap with premium chocolate-vanilla design and AFFURA PLAST logo (black ring with purple swirl), frost sparkle, next to an unwrapped ice cream bar, realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+3. **`item-legumes.png`** *(şu an yer tutucu var — öncelikli)*
+> One and five kilogram printed legume bags with clear product windows showing chickpeas and red lentils, earthy warm design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+4. **`item-spices.png`** *(şu an yer tutucu var — öncelikli)*
+> Colorful spice packaging set: small printed sachets and a stand-up pouch with red pepper, turmeric and cumin visuals, rich warm colors, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+5. **`item-frozen-vegetables.png`** *(şu an yer tutucu var — öncelikli)*
+> One kilogram frozen vegetable pillow bag with fresh green pea and corn photography and frost effect, cool green-blue design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+6. **`item-water-labels.png`** *(şu an yer tutucu var — öncelikli)*
+> Clear PET water bottles with crisp blue wrap-around labels, water splash design, one label roll beside them, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+7. **`item-juice-labels.png`** *(şu an yer tutucu var — öncelikli)*
+> Juice bottles with vibrant orange and berry photographic labels, juicy splash design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+8. **`item-shrink-sleeves.png`** *(şu an yer tutucu var — öncelikli)*
+> PVC shrink sleeve application on a shaped juice bottle, sleeve shown flat and applied 360 degrees, bold gradient design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+9. **`item-label-rolls.png`** *(şu an yer tutucu var — öncelikli)*
+> Printed label roll on a core, colorful repeating labels visible on the winding, professional press environment feel, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+10. **`item-coffee-bags.png`** *(şu an geçici görsel kullanılıyor)*
+> Premium coffee bag set: side gusset bag with degassing valve, flat bottom bag and matte black pouch with tin-tie, coffee beans scattered, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+11. **`item-side-gusset.png`** *(şu an yer tutucu var — öncelikli)*
+> Row of side gusset bags in different sizes, kraft and colored film versions, showing the expandable side folds, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+12. **`item-three-side-seal.png`** *(şu an yer tutucu var — öncelikli)*
+> Flat three side seal pouches in several sizes, one vacuum-style transparent and one fully printed, minimal layout, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+13. **`item-quad-seal.png`** *(şu an yer tutucu var — öncelikli)*
+> Quad seal block bottom bags standing in a row, sharp square edges, premium dark designs for coffee and pet food, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+14. **`item-laundry-detergent.png`** *(şu an geçici görsel kullanılıyor)*
+> Laundry detergent packaging set: powder bag, liquid refill doypack with spout and cap, fresh blue-white design with flower, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+15. **`item-wet-wipes.png`** *(şu an geçici görsel kullanılıyor)*
+> Wet wipes flow pack with resealable plastic lid and label, soft white-blue hygiene design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+16. **`item-shampoo.png`** *(şu an yer tutucu var — öncelikli)*
+> Shampoo refill doypack with spout cap, glossy pearl finish, elegant purple-white cosmetic design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+17. **`item-dish-detergent.png`** *(şu an yer tutucu var — öncelikli)*
+> Dish detergent refill doypack with spout, lemon-fresh green-yellow design with bubbles, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+18. **`item-liquid-cleaners.png`** *(şu an yer tutucu var — öncelikli)*
+> Multi-surface liquid cleaner refill doypack, energetic teal-white design with sparkle icons, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+19. **`item-detergent-sleeves.png`** *(şu an yer tutucu var — öncelikli)*
+> Detergent bottles with vivid shrink sleeve labels applied 360 degrees, bold cleaning category colors, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+20. **`item-soap.png`** *(şu an yer tutucu var — öncelikli)*
+> Soap bar flow-wrap packaging with elegant botanical design and pearl finish, two wrapped soaps and one unwrapped, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+21. **`item-dog-food.png`** *(şu an geçici görsel kullanılıyor)*
+> Large dog food bag with handle and zipper, happy golden retriever photography, premium cream-purple design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+22. **`item-cat-food.png`** *(şu an geçici görsel kullanılıyor)*
+> Cat food stand-up pouch with elegant cat photography, purple-cream premium design, small portion sachets beside it, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+23. **`item-bird-food.png`** *(şu an yer tutucu var — öncelikli)*
+> Bird seed packaging: printed pillow bag with clear window showing colorful seed mix, bright cheerful design with parrot illustration, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+24. **`item-animal-feed.png`** *(şu an yer tutucu var — öncelikli)*
+> Heavy-duty animal feed bag, 10 kg woven-look laminated sack with farm animal imagery, robust industrial design, AFFURA PLAST logo (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
