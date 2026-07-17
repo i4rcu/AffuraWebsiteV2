@@ -331,6 +331,13 @@ h1, h2, h3, h4 { font-family: var(--font-display); color: var(--ink); line-heigh
 .prod-items { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 9px 24px; margin: 18px 0 4px; padding: 0; }
 .prod-items li { display: flex; gap: 9px; align-items: baseline; font-size: 14.5px; color: var(--ink); font-weight: 500; }
 .prod-items li::before { content: "✓"; color: var(--purple); font-weight: 700; flex: none; }
+/* item names that have a detail page must READ as links */
+.prod-items a {
+  color: var(--purple-deep); font-weight: 600;
+  text-decoration: underline; text-decoration-color: #d9c2ef; text-underline-offset: 3px;
+}
+.prod-items a::after { content: " ›"; }
+.prod-items a:hover { color: var(--purple); text-decoration-color: var(--purple); }
 .prod-body .btn { margin-top: 18px; }
 @media (max-width: 820px) {
   .prod-panel { grid-template-columns: 1fr; }
