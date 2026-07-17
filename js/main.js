@@ -25,6 +25,18 @@
     reveals.forEach(function (el) { el.classList.add("in"); });
   }
 
+  /* ---- product gallery (detail pages) ---- */
+  var galMain = document.querySelector(".gallery-main img");
+  if (galMain) {
+    document.querySelectorAll(".gallery-thumbs button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        galMain.src = b.querySelector("img").getAttribute("src");
+        document.querySelectorAll(".gallery-thumbs button").forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+      });
+    });
+  }
+
   /* ---- hero slider (each slide standalone, per the manager's spec) ---- */
   var hero = document.querySelector(".hero");
   if (!hero) return;
