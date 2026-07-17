@@ -33,6 +33,12 @@ I'll swap out the placeholders.
 
 ---
 
+## 7. `prod-biscuits.png` — Biscuits & Bakery detail page (currently placeholder)
+> Biscuit flow-wrap pillow pack with appetizing cookie photography printed on the film, warm cream and brown design with "AFFURA PLAST" logo (black ring with purple swirl), a few chocolate-chip cookies beside the pack, realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
+## 8. `prod-dryfoods.png` — Legumes, Spices & Dry Foods detail page (currently placeholder)
+> Group of printed dry-food packs: a 1 kg rice bag with clear product window, a chickpea stand-up pouch and a small ground spice sachet with warm red-gold design, all branded "AFFURA PLAST" (black ring with purple swirl), realistic 3D render, professional studio lighting, plain white-to-light-gray background, soft shadows, catalog product photography, 4:3 format.
+
 ## Optional (nice to have, for product detail sections later)
 - `prod-chips.png` — glossy metallized chips bag, bold printed design, AFFURA PLAST logo, same studio style.
 - `prod-meat-vacuum.png` — vacuum bag with fresh red meat cut, food-safe clear film, same studio style.
