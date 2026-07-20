@@ -799,7 +799,7 @@
     mkt_title: "Küresel erişim. Yerel özen.",
     mkt_text: "Bölgesel ve uluslararası pazarlardaki müşterilerimize esnek ambalaj çözümleri ulaştırıyoruz.",
     mkt_tr: "Türkiye", mkt_tr_s: "Genel Merkez — Gaziantep",
-    mkt_sy: "Suriye", mkt_sy_s: "Şube — 2024'ten beri",
+    mkt_sy: "Suriye", mkt_sy_s: "Şube",
     mkt_eu: "Avrupa", mkt_eu_s: "İhracat pazarı",
     mkt_mena: "Orta Doğu & Kuzey Afrika", mkt_mena_s: "İhracat pazarı",
 
@@ -1454,7 +1454,7 @@
     co_lead: "Bize telefon, WhatsApp veya e-posta ile ulaşın — ya da teklif isteği gönderin, bir iş günü içinde dönüş yapalım.",
     co_call: "Bizi arayın", co_email: "E-posta gönderin",
     co_hq: "Genel Merkez", co_hq_s: "Gaziantep — Türkiye",
-    co_branch: "Şube", co_branch_s: "Suriye — 2024'ten beri",
+    co_branch: "Şube", co_branch_s: "Suriye",
     co_q_e: "Teklif İsteyin",
     co_q_t: "Ürününüzü anlatın",
     co_f_name: "Ad Soyad", co_f_company: "Firma", co_f_email: "E-posta", co_f_phone: "Telefon / WhatsApp",

@@ -4,9 +4,11 @@ Every prompt below already includes the shared style so the whole site looks lik
 (the manager's requirement: same studio style, white/light-gray backgrounds, soft shadows,
 realistic 3D, consistent angle, Affura Plast branding).
 
-**Brand note for all products:** the packaging must show the AFFURA PLAST logo — a black circle
-ring with a purple swirl inside, wordmark "AFFURA PLAST" below it (same as on the pouches in
-`photos/laminasyon 2.png` and `laminasyon 4.png`). Brand purple ≈ #8A3FC4.
+**Brand note for all products (UPDATED — real logo):** the packaging must show the real AFFURA PLAST
+logo — a thick purple (#7B2E8C) ring shaped like a rounded location pin (one squared corner at the
+bottom right), with a small CMYK printer registration dot (cyan/magenta/yellow/black quadrants) in its
+white center, and the lowercase wordmark "affura plast" in the same purple rounded font below.
+Reference file: `assets/img/logo-full.png`.
 
 After generating, save each file into `assets/img/` with the exact filename given, then tell me —
 I'll swap out the placeholders.
