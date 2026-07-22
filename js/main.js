@@ -37,6 +37,101 @@
     });
   }
 
+  /* ---- selected category card (deep links from products page) ---- */
+  function focusCategoryCard() {
+    if (!window.location.hash) return;
+    var id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); }
+    catch (e) { return; }
+    var target = document.getElementById(id);
+    if (!target || !target.classList.contains("category-card")) return;
+
+    document.querySelectorAll(".category-card.is-targeted").forEach(function (card) {
+      card.classList.remove("is-targeted");
+    });
+    target.classList.add("is-targeted");
+
+    window.setTimeout(function () {
+      var root = document.documentElement;
+      var previousBehavior = root.style.scrollBehavior;
+      var rect = target.getBoundingClientRect();
+      var top = window.scrollY + rect.top - Math.max(0, (window.innerHeight - rect.height) / 2);
+      root.style.scrollBehavior = "auto";
+      window.scrollTo(0, Math.max(0, top));
+      try { target.focus({ preventScroll: true }); }
+      catch (e) { target.focus(); }
+      window.requestAnimationFrame(function () { root.style.scrollBehavior = previousBehavior; });
+    }, 80);
+  }
+
+  focusCategoryCard();
+  window.addEventListener("hashchange", focusCategoryCard);
+
+  /* ---- category-card image rotation (catalog page) ---- */
+  var categoryCards = document.querySelectorAll(".category-card[id]");
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (categoryCards.length && !reduceMotion) {
+    var categoryObserver = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var controls = entry.target._imageRotation;
+        if (!controls) return;
+        if (entry.isIntersecting) controls.start();
+        else controls.stop();
+      });
+    }, { rootMargin: "120px 0px", threshold: 0.05 }) : null;
+
+    categoryCards.forEach(function (card, index) {
+      var image = card.querySelector(".card-media img");
+      if (!image) return;
+
+      var sources = [image.getAttribute("src"), "assets/img/gallery-" + card.id + "-02.png?v=2"];
+      var current = 0;
+      var intervalId = null;
+      var startId = null;
+      var paused = false;
+
+      function rotate() {
+        var next = (current + 1) % sources.length;
+        var loader = new Image();
+        loader.onload = function () {
+          image.classList.add("is-changing");
+          window.setTimeout(function () {
+            image.src = sources[next];
+            current = next;
+            window.requestAnimationFrame(function () { image.classList.remove("is-changing"); });
+          }, 220);
+        };
+        loader.onerror = stop;
+        loader.src = sources[next];
+      }
+
+      function start() {
+        if (paused || intervalId || startId) return;
+        startId = window.setTimeout(function () {
+          startId = null;
+          rotate();
+          intervalId = window.setInterval(rotate, 5000);
+        }, 5000 + (index % 4) * 180);
+      }
+
+      function stop() {
+        window.clearTimeout(startId);
+        window.clearInterval(intervalId);
+        startId = null;
+        intervalId = null;
+      }
+
+      card._imageRotation = { start: start, stop: stop };
+      card.addEventListener("mouseenter", function () { paused = true; stop(); });
+      card.addEventListener("mouseleave", function () { paused = false; start(); });
+      card.addEventListener("focusin", function () { paused = true; stop(); });
+      card.addEventListener("focusout", function () { paused = false; start(); });
+
+      if (categoryObserver) categoryObserver.observe(card);
+      else start();
+    });
+  }
+
   /* ---- hero slider (each slide standalone, per the manager's spec) ---- */
   var hero = document.querySelector(".hero");
   if (!hero) return;
