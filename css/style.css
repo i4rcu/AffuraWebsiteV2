@@ -164,7 +164,7 @@ h1, h2, h3, h4 {
 
 .main-nav { display: flex; gap: 25px; margin-inline-start: auto; }
 .main-nav a {
-  color: var(--body); font-size: 25px; font-weight: 600;
+  color: var(--body); font-size: 22px; font-weight: 600;
   padding: 10px 1px; position: relative; white-space: nowrap;
 }
 .main-nav a::after {
