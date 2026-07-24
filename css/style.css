@@ -1,7 +1,7 @@
 /* ============================================================
    Affura Plast — Editorial Industrial Premium
    Original white · ink · signature purple palette
-   Arabic: Noto Nastaliq Urdu display · Rakkas UI · Zain body
+   Arabic: Noto Nastaliq Urdu display · Marhey UI · Zain body
    ============================================================ */
 
 :root {
@@ -20,7 +20,7 @@
   --font-body: "IBM Plex Sans", sans-serif;
   --font-arabic-body: "Zain", sans-serif;
   --font-arabic-display: "Noto Nastaliq Urdu", serif;
-  --font-arabic-ui: "Rakkas", serif;
+  --font-arabic-ui: "Marhey", sans-serif;
   --font-brand: "Archivo", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
   --wrap: 1240px;
@@ -71,14 +71,14 @@ h1, h2, h3, h4 {
 [dir="rtl"] .badge,
 [dir="rtl"] .lang-switch button {
   font-family: var(--font-arabic-ui);
-  font-weight: 400;
+  font-weight: 500;
 }
 [dir="rtl"] .card-body h3,
 [dir="rtl"] .market b,
 [dir="rtl"] .detail-h,
 [dir="rtl"] .site-footer h4 {
   font-family: var(--font-arabic-ui);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.45;
 }
 [dir="rtl"] .stat span,
@@ -87,7 +87,7 @@ h1, h2, h3, h4 {
 [dir="rtl"] .finish-grid figcaption,
 [dir="rtl"] .ph small {
   font-family: var(--font-arabic-ui);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0;
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
 }
 [dir="rtl"] .eyebrow {
   font-family: var(--font-arabic-ui);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4 {
   display: inline-flex; align-items: center; gap: 10px;
   color: var(--purple);
 }
-[dir="rtl"] .card-link { font-family: var(--font-arabic-ui); font-size: 14.5px; font-weight: 400; letter-spacing: 0; }
+[dir="rtl"] .card-link { font-family: var(--font-arabic-ui); font-size: 14.5px; font-weight: 500; letter-spacing: 0; }
 .card-link .arr { transition: transform .3s; display: inline-block; }
 .card:hover .card-link .arr { transform: translateX(4px); }
 [dir="rtl"] .card:hover .card-link .arr { transform: translateX(-4px) scaleX(-1); }
@@ -341,7 +341,7 @@ h1, h2, h3, h4 {
   background: var(--purple-soft); border-radius: 999px; padding: 5px 9px;
   margin-bottom: 3px;
 }
-[dir="rtl"] .category-class-label { font-family: var(--font-arabic-ui); font-size: 12.5px; font-weight: 400; letter-spacing: 0; }
+[dir="rtl"] .category-class-label { font-family: var(--font-arabic-ui); font-size: 12.5px; font-weight: 500; letter-spacing: 0; }
 .category-jump {
   position: sticky; top: 80px; z-index: 45;
   background: rgba(255,255,255,.94); backdrop-filter: blur(12px);
