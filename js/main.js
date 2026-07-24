@@ -37,35 +37,46 @@
     });
   }
 
-  /* ---- selected category card (deep links from products page) ---- */
-  function focusCategoryCard() {
+  /* ---- selected category or class section (deep links into the catalog) ---- */
+  function focusCategoryTarget() {
     if (!window.location.hash) return;
     var id;
     try { id = decodeURIComponent(window.location.hash.slice(1)); }
     catch (e) { return; }
     var target = document.getElementById(id);
-    if (!target || !target.classList.contains("category-card")) return;
+    if (!target) return;
+    var isCard = target.classList.contains("category-card");
+    var isGroup = target.classList.contains("category-group");
+    if (!isCard && !isGroup) return;
 
-    document.querySelectorAll(".category-card.is-targeted").forEach(function (card) {
-      card.classList.remove("is-targeted");
+    document.querySelectorAll(".category-card.is-targeted, .category-group.is-targeted").forEach(function (item) {
+      item.classList.remove("is-targeted");
     });
     target.classList.add("is-targeted");
 
     window.setTimeout(function () {
       var root = document.documentElement;
       var previousBehavior = root.style.scrollBehavior;
-      var rect = target.getBoundingClientRect();
-      var top = window.scrollY + rect.top - Math.max(0, (window.innerHeight - rect.height) / 2);
+      var scrollTarget = isGroup ? (target.querySelector(".section-head") || target) : target;
+      var rect = scrollTarget.getBoundingClientRect();
+      var header = document.querySelector(".site-header");
+      var categoryJump = document.querySelector(".category-jump");
+      var headerOffset = (header ? header.offsetHeight : 72)
+        + (categoryJump ? categoryJump.offsetHeight : 0) + 18;
+      var top = isGroup
+        ? window.scrollY + rect.top - headerOffset
+        : window.scrollY + rect.top - Math.max(0, (window.innerHeight - rect.height) / 2);
       root.style.scrollBehavior = "auto";
       window.scrollTo(0, Math.max(0, top));
+      if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
       try { target.focus({ preventScroll: true }); }
       catch (e) { target.focus(); }
       window.requestAnimationFrame(function () { root.style.scrollBehavior = previousBehavior; });
     }, 80);
   }
 
-  focusCategoryCard();
-  window.addEventListener("hashchange", focusCategoryCard);
+  focusCategoryTarget();
+  window.addEventListener("hashchange", focusCategoryTarget);
 
   /* ---- category-card image rotation (catalog page) ---- */
   var categoryCards = document.querySelectorAll(".category-card[id]");
